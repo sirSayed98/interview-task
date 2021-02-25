@@ -1,0 +1,122 @@
+.navModulated {
+  background-color: #00a47c;
+}
+.searchIn {
+  border-radius: 40px;
+  width: 71%;
+}
+.searchIn::placeholder {
+  font-size: 11px;
+}
+.smScreenSpan{
+  color: white;
+}
+.verticalAllign{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+/* small mobile */
+@media only screen and (max-width: 320px) {
+  .navModulated {
+    min-height: 9%;
+  }
+  .smScreenLink {
+    left: 3%;
+  }
+  .smScreenForm {
+   
+    transform: translateY(-63%);
+    right: -6%;
+  }
+  .smScreenSpan {
+    right: 5%;
+  }
+  .loginBtn {
+    display: none;
+  }
+  .RegisterBtn {
+    display: none;
+  }
+}
+/* mobile */
+@media only screen and (min-width: 321px) and (max-width: 414px) {
+  .navModulated {
+    min-height: 9%;
+  }
+  .smScreenLink {
+    left: 3%;
+  }
+  .smScreenForm {
+    transform: translateY(-63%);
+    right: 6%;
+  }
+  .smScreenSpan {
+    right: 5%;
+  }
+  .loginBtn {
+    display: none;
+  }
+  .RegisterBtn {
+    display: none;
+  }
+}
+
+
+/* tablets */
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+  .navModulated {
+    min-height: 6%;
+  }
+  .smScreenLink {
+    left: 7%;
+  }
+  .smScreenForm {
+    transform: translateY(-60%);
+    right: 25%;
+  }
+  .smScreenSpan {
+    right: 5%;
+  }
+  .loginBtn {
+    display: none;
+  }
+  .RegisterBtn {
+    display: none;
+  }
+}
+/* Computer and IpadPro */
+@media only screen and (min-width: 769px) {
+  .navModulated {
+    min-height: 60px;
+  }
+  .smScreenLink {
+    left: 15%;
+  }
+  .smScreenForm {
+    display: none;
+  }
+  .smScreenSpan {
+    display: none;
+  }
+  .loginBtn {
+    
+    right: 20%;
+    background-color: #00a47c;
+    color: white;
+    border-color: white;
+    border-radius: 25px;
+    font-weight: 400;
+    padding: 0.5% 1.5%;
+  }
+  .RegisterBtn {
+    right: 9%;
+    color: #00a47c;
+    background-color: white;
+    border-radius: 25px;
+    font-weight: 500;
+    padding: 0.5% 1.5%;
+  }
+}

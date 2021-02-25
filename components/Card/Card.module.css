@@ -1,0 +1,38 @@
+.imgClass {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+}
+.card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cardButton {
+  border-radius: 25px;
+  background-color: white;
+  border-color: #53c2a6;
+  border-width: 2px;
+  color: #53c2a6;
+}
+.mainTitle {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 2%;
+}
+.icon {
+  transform: rotate(50deg);
+  color: #53c2a6;
+}
+.divSvg {
+  transform: translate(10px, 0);
+}
+.date {
+  color: #53c2a6;
+  text-transform: capitalize;
+}
+.mainText {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top: 2%;
+}
